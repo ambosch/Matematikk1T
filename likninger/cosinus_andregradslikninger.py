@@ -1,4 +1,4 @@
-# Sinus 1T eksempel s.115
+# Hentet fra Sinus 1T eksempel s.115
 from math import sqrt
 
 print("Vi skal løse andregradslikningen ax^2+bx+c=0") # Forteller brukeren hv

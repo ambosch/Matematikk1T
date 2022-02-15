@@ -1,3 +1,5 @@
+# Programmet deriverer et polynom av andre grad analytisk
+
 # Brukerinput
 a = float(input("Verdien til a ")) # Float mer hensiktsmessig enn int
 b = float(input("Verdien til b "))

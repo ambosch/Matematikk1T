@@ -1,3 +1,4 @@
+# Programmet tegner 1 trekant
 from turtle import *
 
 def trekant():

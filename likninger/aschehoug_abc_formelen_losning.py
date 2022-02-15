@@ -1,3 +1,4 @@
+# Hentet fra boken Matematikk 1T
 from pylab import *
 
 print("Programmet skal løse andregradslikningen")

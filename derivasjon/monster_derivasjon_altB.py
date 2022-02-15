@@ -1,3 +1,6 @@
+#Hentet fra læreboken Mønster 1T
+# Programmet plotter f(x) og f'(x). Bruker array datatype
+
 import numpy as np
 import matplotlib.pyplot as plt
 

@@ -1,3 +1,5 @@
+# Programmet deriverer et polynom av n-te grad analytisk 
+
 print("Legg inn koeffisientene til polynomet i stigende rekkefølge")
 print("Skriv stopp når du har skrevet inn alle koeffisientene")
 

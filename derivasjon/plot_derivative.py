@@ -1,16 +1,18 @@
-import numpy as np # brukes visst ikke
+# Programmet plotter funksjonen f(x) og den deriverte med tre ulike implementasjoner av numerisk derivasjon
+
+import numpy as np # brukes ikke i denne implementasjonen
 import pylab as plb
 
 # Les mer om numerisk derivasjon her
 # https://en.wikipedia.org/wiki/Numerical_differentiation
 
-def funksjon(x): # the function must be continuous on the interval
+def funksjon(x): # Funksjonen må være kontinuerlig på det valgte intervallet i linspace
     return 4*x**4 + 3*x**3 +2
 
-# Selection of delta x does matter
+# Valg av verdi for delta_x er av betydning for resultatet
 delta_x = 0.1
 
-# Selection of differentiation definition does matter
+# Valg av derivasjonsmetode er av betydning for resultatet
 def derivert_forover(x):
     return (funksjon(x + delta_x) - funksjon(x)) / delta_x
 
@@ -37,15 +39,4 @@ plb.grid()
 plb.legend()
 plb.show()
 
-'''
-for i in range(1,101):
-    y_f.append(derivert_forover(i))
-    y_b.append(derivert_bakover(i))
-    y_s.append(derivert_symmetrisk(i))
 
-
-print(y_f)
-print(y_b)
-print(y_s)
-
-'''

@@ -1,3 +1,6 @@
+# Hentet fra læreboken Mønster 1T
+# Programmet plotter f(x) og f'(x). Bruker datatypen liste.
+
 import matplotlib.pyplot as plt
 
 def f(x):
@@ -17,7 +20,7 @@ while x <= xslutt: # Kan ikke direkte lage en liste slik som med array, og loope
     xverdier.append(x)
     y=f(x)
     yverdier.append(y)
-    derivert = (f(x+delta_x)-f(x))/delta_x
+    derivert = (f(x+delta_x)-f(x))/delta_x # Newtons kvotient
     derivertverdier.append(derivert)
     x += xsteg
 

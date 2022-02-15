@@ -1,3 +1,4 @@
+# Fra læreboken Mønster 1T
 def f(x):
     return 5000 * 1.25**x
 

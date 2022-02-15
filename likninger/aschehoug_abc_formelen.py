@@ -1,4 +1,4 @@
-# Matematikk 1T s. 123
+# Hentet fra Matematikk 1T s. 123
 from pylab import *
 print("Programmet skal løse andregradslikningen")
 print("ax^2 + bx + c = 0 ved hjelp av abc-formelen.")

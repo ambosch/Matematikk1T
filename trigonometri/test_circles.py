@@ -1,7 +1,8 @@
 from turtle import *
 
 '''
-Skrev denne fila for å få til å tegne blomsten, da den ikke ble riktig i flowers.py
+Programmet tegner én blomst.
+Skrev denne fila for å få til å tegne blomsten, da den ikke ble riktig i flowers.py første gang
 Lærdom:
 Dekomponering og isolering i filer er enklere å teste
 goto og setheading er lettere å forholde seg til

@@ -1,3 +1,4 @@
+# Hentet fra NDLA sine 1T-sider
 def f(x):
     return x**4 +1
 

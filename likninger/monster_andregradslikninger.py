@@ -1,4 +1,4 @@
-# Mønster 1T s. 91
+# Hentet fra Mønster 1T s. 91
 
 import math
 

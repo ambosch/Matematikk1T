@@ -1,8 +1,11 @@
 from turtle import *
 import random as rm
 
+# Programmet tegner en randomisert blomstereng
+# Enhentssirkelen må forstås for å tegne blomstene riktig
+
 '''
-Ressurser å se på
+Ressurser å utforske videre
 https://realpython.com/beginners-guide-python-turtle/
 https://direct.mit.edu/books/book/4663/Turtle-GeometryThe-Computer-as-a-Medium-for
 https://processing.org/books/

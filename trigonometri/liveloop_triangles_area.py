@@ -6,6 +6,9 @@ import random
 Trigonometriprogram
 Benytter både arealsetningen og cosinussetningen
 Kan kanskje modifiseres til å løses med sinussetningen
+
+Hvordan det virker:
+Tegningen bytter farge når det samlede arealet overstiger verdien til variabelen maksareal som sendes inn i funksjonen tegn(maksareal) i linje 117
 '''
 colors = ["red","blue", "green","pink", "yellow","purple", "magenta", "lightseagreen"] # Innebygde CSS-farger: https://www.w3schools.com/cssref/css_colors.asp
 colors2 = ["#D8F3DC","#B7E4C7","#95D5B2","#74C69D","#52B788","#40916C","#2D6A4F","#1B4332"] # Fargepalett: https://coolors.co/palette/d8f3dc-b7e4c7-95d5b2-74c69d-52b788-40916c-2d6a4f-1b4332-081c15

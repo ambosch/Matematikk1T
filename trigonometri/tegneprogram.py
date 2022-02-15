@@ -1,5 +1,8 @@
 from turtle import *
 
+# Programmet tegner ved å flytte figuren basert på tastaturinterasjonen spesifisert i funksjonene nedenfor
+# TODO: Utvid slik at det tegner figurer ved hjelp av trigonometri, feks s for sinuskurve eller l for likesidet trekant
+
 def f():
     forward(10)
 
